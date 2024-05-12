@@ -1,0 +1,144 @@
+.chrome{
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50px;
+}
+.banner{
+    text-align: center;
+    padding: 2%;
+    position: relative;
+}
+.wh{
+    position: initial;
+}
+.ban_txt{
+    font-size: 50px;
+}
+.Navbar{
+    width: 35%;
+    height: 10%;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 40px;
+    margin-left: 33%;
+    padding: 1px;
+    position: absolute;
+}
+.Navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6%;
+}
+.Navbar ul li{
+    cursor: pointer;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+.Navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.Navbar ul li:hover{
+    box-shadow: 1px 1px 3px rgb(194, 194, 194);
+}
+.slider{
+    margin-left: -25%;
+    display:  grid;
+    place-items: center;
+    height: 800px;
+    width: 100%;
+    margin-top: 2%;
+    position: relative;
+}
+.slider-track{
+    display: flex;
+    width: calc(200px * 4);
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.img1{
+    height: 550px;
+}
+.img2{
+    height: 550px;
+}
+.img3{
+    height: 550px;
+}
+.img4{
+    height: 550px;
+}
+.updates{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.updates .title{
+    font-size: 60px;
+}
+.containers{
+    display: flex;
+}
+.container{
+    width: 40%;
+    margin: 5%;
+    background-color: rgb(189, 222, 251);
+    border-radius: 20px;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+.container .upda{
+    margin-left: -450px;
+}
+.container h1{
+    margin-left: -37%;
+}
+.container p{
+    margin-left: 5%;
+    font-size: 20px;
+}
+.a{
+    margin-left: -240px;
+    text-decoration: none;
+}
+.chr{
+   margin-left: -228px;
+   margin-bottom: -5px;
+   width: 350px;
+   height: 200px;
+   border-bottom-left-radius: 25px;
+}
+.container1 .latest{
+    margin-left: -75%;
+}
+.container1{
+    width: 40%;
+    margin: 5%;
+    background-color: rgb(251, 225, 248);
+    border-radius: 20px;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+.container1 h1{
+    margin-left: -37%;
+}
+.container1 p{
+    margin-left: 5%;
+    font-size: 20px;
+}
+.chrom{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    margin-right: 50%;
+}
+
+

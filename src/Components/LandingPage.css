@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+}
+.App{
+  margin-top: 10%;
+}
+.item{
+  min-width: 30rem;
+  height: 20rem;
+  padding: 20px;
+}
+.item .image{
+  border-radius: 1rem;
+  margin-left: 25%;
+  pointer-events: none;
+}
+.inner-carousel{
+  display: flex;
+}
+.carousel{
+  cursor: grab;
+  overflow: hidden;
+}
