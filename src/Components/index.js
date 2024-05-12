@@ -9,7 +9,7 @@ import Update from './update.js';
 import AI from './AI.js'
 import Fast from './fast.js'
 import Yours from './Yours.js';
-import santhi from './santhi.js'
+
 
 function Index(){
     useEffect(()=>{
@@ -46,10 +46,7 @@ function Index(){
             </div>
             <div id='fast'>
                 <Fast />
-            </div>
-            <div id='san'>
-                <santhi />
-            </div>      
+            </div>     
         </>
     )
 }
